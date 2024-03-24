@@ -1,0 +1,35 @@
+
+Terminale 
+yolo task=detect mode=predict model=yolov8m.pt conf=0.25 source="seritcikti.mp4"
+
+kodunu yazarsak yolo hazır kütüphanesinin object detectionını her videoda kullanabiliyoruz
+
+
+Python 3.11.6 surumuyle calistiriyoruz. 
+
+python 3.12 ile bug olduğundan dolayı çalışmıyor.
+
+
+yukledigim seyler
+
+pip install scikit-learn
+
+pip install matplotlib
+
+pip install ipython
+
+pip install moviepy
+
+pip install opencv-python
+
+pip install scikit-image
+
+pip install docopt
+
+pip install matplotlib
+
+pip install ultralytics
+
+
+
+
